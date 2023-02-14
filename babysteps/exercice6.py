@@ -1,0 +1,5 @@
+p_reelle = float(input('donner la partie reelle: '))
+p_imag = float(input('donner la partie imaginaire: '))
+c = complex(p_reelle, p_imag)
+c_module = abs(c)
+print(f'Le module du nombre complexe est {c_module}')
